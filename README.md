@@ -8,7 +8,9 @@ Site estático em HTML e CSS, responsivo, com navegação por seções, contatos
 
 GitHub Pages: branch `main`, pasta `/ (root)`.
 
-Domínio: `docemorretes.com`, declarado no arquivo `CNAME`. O DNS precisa apontar para GitHub Pages e o HTTPS deve estar habilitado nas configurações do repositório.
+Endereço público: `https://docemorretes.com/mulheresnameliponicultura/`.
+
+A raiz `docemorretes.com` permanece na hospedagem original da loja. O Cloudflare Worker `mulheres-na-meliponicultura` encaminha somente esse caminho ao GitHub Pages em `https://meliponariodocemorretes.github.io/mulheres-na-meliponicultura/`. Não adicionar um arquivo `CNAME` ao repositório: o domínio principal pertence à loja.
 
 ## Edição
 
