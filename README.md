@@ -8,14 +8,15 @@ Site estático em HTML e CSS, responsivo, com navegação por seções, contatos
 
 GitHub Pages: branch `main`, pasta `/ (root)`.
 
-Endereço público: `https://docemorretes.com/mulheresnameliponicultura/`.
+Endereço público: `https://meliponariodocemorretes.github.io/mulheres-na-meliponicultura/`.
 
-A raiz `docemorretes.com` permanece na hospedagem original da loja. O Cloudflare Worker `mulheres-na-meliponicultura` encaminha somente esse caminho ao GitHub Pages em `https://meliponariodocemorretes.github.io/mulheres-na-meliponicultura/`. Não adicionar um arquivo `CNAME` ao repositório: o domínio principal pertence à loja.
+O botão “Saiba mais” da seção “Mulheres na Meliponicultura” em `https://www.docemorretes.com/` abre esta página. O site de vendas e seu domínio são administrados separadamente. Não adicionar um arquivo `CNAME` ao repositório.
 
 ## Edição
 
 - `index.html`: conteúdo e contatos.
 - `styles.css`: identidade visual e responsividade.
+- `anton-regular.woff2` e `dm-sans-latin-variable.woff2`: fontes locais; licencas em `anton-OFL.txt` e `dm-sans-OFL.txt`.
 - `capa.webp`, `manejo.webp`, `meliponario.webp`: imagens do projeto.
 - `projeto-mulheres-na-meliponicultura.pdf`: apresentação original.
 
