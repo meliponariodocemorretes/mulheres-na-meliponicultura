@@ -11,3 +11,11 @@
 .project-seal{margin-block:0;padding-block:24px 0;display:flex;justify-content:center}.project-seal img{width:min(300px,100%);height:auto;object-fit:contain}@media(max-width:760px){.project-seal{padding-block:16px 0}.project-seal img{width:min(260px,100%)}}
 .hero-copy,.intro>div,.split>div,.territory>div,.inclusion>div,.inclusion aside,.steps li>div{min-width:0}
 @media(max-width:380px){nav{flex-wrap:wrap;justify-content:flex-start;gap:12px 18px}.nav-cta{margin-left:auto}.partner-ways{grid-template-columns:1fr}.ods{grid-template-columns:1fr}}
+
+/* Brand lockup shared with the bee catalog. */
+.brand{gap:14px;font:29px/1.05 Georgia,'Times New Roman',serif;letter-spacing:-.7px;color:#1a3322}
+.brand .brand-seal{width:64px;height:64px;object-fit:contain;flex-shrink:0;mix-blend-mode:multiply}
+.brand .brand-copy small{display:block;margin-top:7px;font:400 10px/1.4 'Segoe UI',Arial,sans-serif;letter-spacing:.18em;text-transform:uppercase}
+.footer .brand{color:var(--paper)}
+.footer .brand-seal{background:var(--paper);mix-blend-mode:normal}
+@media(max-width:760px){.brand{font-size:26px}.brand .brand-seal{width:52px;height:52px}.brand .brand-copy small{font-size:9px}}
